@@ -2,7 +2,7 @@
 This is Task managment system for project
 
 # User Models
-Managment\n
+Managment/n
 Admin\n
 Manager\n
 TeamLead\n
