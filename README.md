@@ -1,5 +1,5 @@
 # BasicProjectManagmentSystem
-This is Task managment system for project
+Object Modeling for Task managment system for project 
 
 # User Models
 Managment\
@@ -7,17 +7,17 @@ Admin\
 Manager\
 TeamLead\
 TeamMember\
-Member\
+Member<br>
 
 # Enum
-Role\n
-TaskStatus\n
+Role\
+TaskStatus<br>
 
 
 # other Models
-Project\n
-Task\n
-Contact\n
-Comment\n
+Project\
+Task\
+Contact\
+Comment<br>
 
 
