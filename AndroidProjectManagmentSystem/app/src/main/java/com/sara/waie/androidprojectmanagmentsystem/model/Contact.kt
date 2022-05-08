@@ -1,5 +1,16 @@
 package com.sara.waie.androidprojectmanagmentsystem.model
 
+/**
+ * @param addressLine1 eg:door num, Street name
+ * @param addressLine2 eg:village
+ * @param city
+ * @param state
+ * @param country
+ * @param postalCode
+ * @param phoneNumber
+ * @param mobileNumber
+ * @param isMobileVerified
+ * */
 data class Contact(
     var addressLine1: String,
     var addressLine2: String,

@@ -1,18 +1,20 @@
 package com.sara.waie.androidprojectmanagmentsystem.model
-//id -Non nullable
-//name-Nullable
-//email-nullable
-//contact-nullable
-//role-ENUM of Role
-//SkillList -hold the list of skill id(reference)- can change to int if required
-//projectList- hold the list of Project id(reference)
-//taskList- hold the list of Task  in each project (ProjectId,TaskList)
+/**
+ * @param id Non nullable,and Mandatory
+ * @property name Name of the Member
+ * @property email email of Member eg:sara@gmail.com
+ * @property contact contact of Member with details
+ * @property role Role::Enum,default Role.NON_TEAM_MEMBER
+ * @property skillList list of skils member have eg:Android,Design,Construction
+ * @property projectList list of projects member was assigned
+ * @property taskList list of task member was assigned
+ * */
 open class Member(open var id:String){
     var name:String?=null
     var email:String?=null
     var contact:Contact?=null
-    protected var role:Role=Role.NON_TEAM_MEMBER
-    protected var skillList:ArrayList<String> = ArrayList()
-    protected var projectList:ArrayList<Project> = ArrayList()
-    private var taskList:HashMap<String,ArrayList<Task>> = HashMap()
+    var role:Role=Role.NON_TEAM_MEMBER
+    var skillList:ArrayList<String> = ArrayList()
+    var projectList:ArrayList<Project> = ArrayList()
+    var taskList:HashMap<String,ArrayList<Task>> = HashMap()
 }
