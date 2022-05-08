@@ -1,4 +1,4 @@
-package com.sara.waie.androidprojectmanagmentsystem.Model
+package com.sara.waie.androidprojectmanagmentsystem.model
 
 data class Contact(
     var addressLine1: String,

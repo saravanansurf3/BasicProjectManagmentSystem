@@ -1,4 +1,4 @@
-package com.sara.waie.androidprojectmanagmentsystem.Model
+package com.sara.waie.androidprojectmanagmentsystem.model
 //id -Non nullable
 //name-Nullable
 //email-nullable
