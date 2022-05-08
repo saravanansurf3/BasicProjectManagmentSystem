@@ -2,22 +2,22 @@
 This is Task managment system for project
 
 # User Models
-Managment
-Admin
-Manager
-TeamLead
-TeamMember
-Member
+Managment\n
+Admin\n
+Manager\n
+TeamLead\n
+TeamMember\n
+Member\n
 
 # Enum
-Role
-TaskStatus
+Role\n
+TaskStatus\n
 
 
 # other Models
-Project
-Task
-Contact
-Comment
+Project\n
+Task\n
+Contact\n
+Comment\n
 
 
